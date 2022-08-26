@@ -1,0 +1,44 @@
+.container-botones {
+    @include icon
+    flex-direction: column;
+
+    @include tablet {
+    flex-direction: row
+    }
+}
+
+
+
+
+button {
+    width: ;
+    border: none;
+    padding: ;
+
+    a{
+        text-decoration: none;
+
+        &:hover{
+             background-color: $color-fondos;
+        }
+    }
+}
+.carousel-control-prev {
+    @extend button;
+    background-Color:;
+
+    a {
+        color:;
+    }
+}
+    
+
+.carousel-control-next {
+    @extend button;
+    Background-Color:;
+
+    a {
+        color:;
+    }
+
+}

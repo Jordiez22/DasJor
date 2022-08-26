@@ -1,0 +1,126 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+h1 {
+    display: flex
+    justify-content: center;
+}
+
+body {
+    font-family: "Monserrat", sans-serif;
+    overflow-x: hidden;
+
+}
+
+@media(max-width:1200) {
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: #3f3fef;
+}
+
+.carousel-inner {
+    max-height:max-content
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+@media (max-width:768px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+    }
+}
+
+#equipo p {
+    display: none;
+}
+
+.servicio-fila {
+    width: 100% ! important;
+    text-align: center;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+
+    @media (max-width: 576px) {
+        .icono-wrap {
+            flex-wrap: wrap;
+            justify-content: center !important;
+        }
+
+    }
+
+    #seccion-contacto {
+        background-color: #1b2a4e;
+        min-height: 500px;
+        position: relative;
+    }
+
+    #contenedor-formulario {
+        position: absolute;
+        top: 30% left:50% transform: translate(-50%; -50%);
+        background: #fbfafa;
+        border-radius: 5px;
+        max-width: 500px;
+    }
+
+    #titulo-formula {
+        color: #3f3f3f;
+    }
+
+    footer {
+        background: #1b2a4e;
+        min-height: 100px;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(154, 154, 161, 1) 35%);
+    }
+
+    footer p {
+        color: #F3F3F3;
+
+    }
+
+    #iconos i {
+        font-size: 26px;
+        padding: 0 8px;
+        color: #3F3F3F;
+    }
+
+    .square1 {
+        transition: all 2s;
+    }
+
+    .square1:hover {
+        transform: translate(40px, 40px);
+    }
+
+    img:hover {
+        animation: z1 4s;
+    }
+
+    @keyframes z1 {
+        0% {
+            transform: translateX(200px);
+        }
+
+        25% {
+            transform: SCALE(2);
+        }
+
+        50% {
+            border-radius: 10px;
+        }
+
+        75% {
+            transform: translateY(200px)
+        }/*# sourceMappingURL=style.css.map */
